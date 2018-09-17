@@ -1,10 +1,25 @@
-# Importando os Dados
-
-"source": [
-"%matplotlib inline\n",
-"from sklearn.datasets import load_iris\n",
-"from sklearn.model_selection import train_test_split\n",
-"from sklearn.neighbors import KNeighborsClassifier\n",
-"import matplotlib.pylot as plt\n",
-"import numpy as np"
-]
+{
+"cells":[
+ {
+  "cell_type": "markdown",
+  "metadata": {},
+  "source": [
+   "<h1>Meeting the data</h1>"
+  ]
+ },
+ {
+  "cell_type": "code",
+  "execution_count": 1,
+  "metadata": {
+   "collapsed": false
+  },
+  "outputs": [],
+  "source": [
+   "%matplotlib inline\n",
+   "from sklearn.datasets import load_iris\n",
+   "from sklearn.model_selection import train_test_split\n",
+   "from sklearn.neighbors import KNeighborsClassifier\n",
+   "import matplotlib.pylot as plt\n",
+   "import numpy as np"
+  ]
+ }
